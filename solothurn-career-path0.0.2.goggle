@@ -3,11 +3,41 @@
 ! public: true
 ! author: Jaden Scheidegger
 
-! Change default so that anything NOT matching an instruction is removed
-$discard
+! Change default so that anything NOT matching an instruction is downranked
+
 
 ! Keep and strongly boost Solothurn Career Path
 https://karriere.so.ch$boost=10
 https://karriere.so.ch/*$boost=10
 https://karriere.so.ch/stellenmarkt/offene-stellen/$boost=10
 https://karriere.so.ch/stellenmarkt/offene-stellen/*$boost=10
+
+! Discard specific domains
+https://solothurn-jobs.ch/$discard
+https://solothurn-jobs.ch/*$discard
+*jobs.ch/$discard
+*jobs.ch/*$discard
+*jobscout24.ch/$discard
+*jobscout24.ch/*$discard
+*jobup.ch/$discard
+*jobup.ch/*$discard
+*jobwinner.ch/$discard
+*jobwinner.ch/*$discard
+*topjobs.ch/$discard
+*topjobs.ch/*$discard
+*alpha.ch/$discard
+*alpha.ch/*$discard
+*ictcareer.ch/$discard
+*ictcareer.ch/*$discard
+*ingjobs.ch/$discard
+*ingjobs.ch/*$discard
+*financejobs.ch/$discard
+*financejobs.ch/*$discard
+*jobs4sales.ch/$discard
+*jobs4sales.ch/*$discard
+*publicjobs.ch/$discard
+*publicjobs.ch/*$discard
+*jobsforchange.ch/$discard
+*jobsforchange.ch/*$discard
+*jobmaps.ch/$discard
+*jobmaps.ch/*$discard
