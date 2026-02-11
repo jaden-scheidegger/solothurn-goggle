@@ -1,0 +1,10 @@
+! name: Solothurn Career Path
+! description: Show only results from Solothurn Career Path in Brave Search
+! public: true
+! author: Jaden Scheidegger
+
+! Change default so that anything NOT matching an instruction is removed
+$discard
+
+! Keep and strongly boost Solothurn Career Path
+$site=karriere.so.ch
