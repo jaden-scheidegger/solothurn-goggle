@@ -9,3 +9,4 @@ $discard
 ! Keep and strongly boost Solothurn Career Path (allow subdomains)
 *karriere.so.ch/*$boost=10
 *karriere.so.ch/stellenmarkt/offene-stellen/*$boost=10
+*job.so.ch/offene-stellen/*$boost=10
