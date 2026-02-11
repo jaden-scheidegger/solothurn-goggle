@@ -7,4 +7,5 @@
 $discard
 
 ! Keep and strongly boost Solothurn Career Path
+*karriere.so.ch/stellenmarkt/offene-stellen$boost
 *karriere.so.ch/stellenmarkt/offene-stellen/*$boost
